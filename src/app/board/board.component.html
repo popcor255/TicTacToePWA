@@ -1,8 +1,8 @@
-<h1>Current Plater: {{ player }}</h1>
-<button value="new game" (click)="newGame()">New Game</button>
-<h2 *ngIf="winner">
+<h2>Current Plater: {{ player }}</h2>
+<button nbButton style="margin-bottom:2%" outline status="danger" value="new game" (click)="newGame()">Start New Game</button>
+<p *ngIf="winner">
     Player {{ winner }} won the game! 
-</h2>
+</p>
 
 <main>
     <app-square
