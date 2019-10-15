@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tictactoepwa-baffb": {
+      "hosting": {
+        "myapp": [
+          "tictactoepwa-baffb"
+        ]
+      }
+    }
+  }
+}
